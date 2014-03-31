@@ -1,0 +1,32 @@
+{
+  "name": "vern-imager",
+  "version": "0.0.1",
+  "description": "Vern Imager",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uh-sem-blee/vern-imager"
+  },
+  "keywords": [
+    "vern",
+    "authentication"
+  ],
+  "author": "uh-sem-blee",
+  "license": "Copyright 2014 uh-sem-blee, Co.",
+  "bugs": {
+    "url": "https://github.com/uh-sem-blee/vern-imager/issues"
+  },
+  "homepage": "https://github.com/uh-sem-blee/vern-imager",
+  "devDependencies": {
+    "vern-core": "latest",
+    "vern-authentication": "latest",
+    "vern-jsapi": "latest"
+  },
+  "dependencies": {
+    "validator": "^3.5.0",
+    "aws-sdk": "latest"
+  }
+}

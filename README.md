@@ -16,6 +16,8 @@ Handles resizing, resampling, cropping, and other manipulations of images.
 - vern-authentication
 - vern-authentication-jsapi
 
+GraphicsMagick or ImageMagick needs to be installed on the server or workstation the server is running on.
+
 ## New VERN Controllers
 
 * ImagerController

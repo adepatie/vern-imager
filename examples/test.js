@@ -8,8 +8,11 @@ new vern().then(function($vern) {
   $vern = require('../lib')($vern);
 
   $vern.controllers.auth = new $vern.controllers.AuthController($vern).init();
+  $vern.controllers.auth.firstRun();
   $vern.controllers.aws = new $vern.controllers.AWSController($vern).init();
   $vern.controllers.imager = new $vern.controllers.ImagerController($vern).init();
+
+
 
 }).fail(function(err) {
     console.log(err);

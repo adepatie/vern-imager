@@ -27,8 +27,8 @@
     "vern-authentication-jsapi": "latest"
   },
   "dependencies": {
-    "aws-sdk": "latest",
-    "gm": "^1.14.2",
+    "gm": "^1.16.0",
+    "mime": "^1.2.11",
     "validator": "^3.5.0"
   }
 }

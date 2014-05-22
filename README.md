@@ -10,11 +10,17 @@ You may not use, alter, or redistribute this code without permission from uh-sem
 
 Handles resizing, resampling, cropping, and other manipulations of images.
 
+## Prerequisites
+
+- vern-aws
+- vern-authentication
+- vern-authentication-jsapi
+
 ## New VERN Controllers
 
 * ImagerController
 
 ## New VERN Models
 
-
+* ImageModel
 

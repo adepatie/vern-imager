@@ -22,11 +22,13 @@
   "homepage": "https://github.com/uh-sem-blee/vern-imager",
   "devDependencies": {
     "vern-core": "latest",
+    "vern-aws": "latest",
     "vern-authentication": "latest",
-    "vern-jsapi": "latest"
+    "vern-authentication-jsapi": "latest"
   },
   "dependencies": {
-    "validator": "^3.5.0",
-    "aws-sdk": "latest"
+    "aws-sdk": "latest",
+    "gm": "^1.14.2",
+    "validator": "^3.5.0"
   }
 }

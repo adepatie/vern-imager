@@ -10,6 +10,10 @@ new vern().then(function($vern) {
   $vern.controllers.auth = new $vern.controllers.AuthController($vern).init();
   $vern.controllers.auth.firstRun();
   $vern.controllers.aws = new $vern.controllers.AWSController($vern).init();
+  $vern.controllers.api = new $vern.controllers.APIController($vern).init({
+    userRoute: '/account/apis',
+    adminRoute: '/admin/apis'
+  });
   $vern.controllers.imager = new $vern.controllers.ImagerController($vern).init();
 
 

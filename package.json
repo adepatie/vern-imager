@@ -1,6 +1,6 @@
 {
   "name": "vern-imager",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vern Imager",
   "main": "lib/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "authentication"
   ],
   "author": "uh-sem-blee",
-  "license": "Copyright 2014 uh-sem-blee, Co.",
+  "license": "AGPL, Copyright 2014 uh-sem-blee, Co.",
   "bugs": {
     "url": "https://github.com/uh-sem-blee/vern-imager/issues"
   },
